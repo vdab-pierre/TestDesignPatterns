@@ -15,8 +15,8 @@ namespace TestDesignPatterns
             if (Console.ReadLine().ToUpper() == "J")
             {
                 eiland.Uitbarsting();
+                Console.ReadLine();
             }
-            Console.ReadLine();
         }
     }
 }
